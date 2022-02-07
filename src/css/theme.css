@@ -5,7 +5,7 @@
 :root {
 
     --brown-main: rgb(150, 94, 69);
-    --brown-light: rgb(224, 198, 185);
+    --brown-light: rgb(201, 178, 149);
 }
 
 /*------------------------------
@@ -69,28 +69,53 @@
         display: flex;
         text-align: center;
         flex-direction: column;
+        background-color: var(--brown-light);
+        padding: 3rem;
     }
 
     .booking-form {
 
         display: flex;
         flex-direction: column;
+        
+        margin-top: 1.5rem;
+
+        padding: 1.5rem;
+        padding-left: 12vw;
+        padding-right: 12vw;
+        border-radius: 4px;
+
+        background-color: white;
+        box-shadow: 7px 7px 10px 1px rgba(0, 0, 0, 0.5);
 
     }
 
         .booking-form input {
             
-            background-color: rgb(236, 236, 236);
+            background-color: rgb(235, 235, 235);
+            /*box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.5);*/
+
+            border-radius: 8px 8px 0 0;
             border: none;
             border-bottom: solid 1px;
+
             font-size: 1.5rem;
             margin: 1rem 0;
+            padding: 0.5rem;
         }
 
         #compare-submit {
+            
+            align-self: flex-end;
+
+            /*max-width: 20vw;*/
             border: none;
-            border-radius: 6px;
+             border-radius: 0; 
+
             background-color: rgb(150, 94, 69);
+            color: rgb(235, 235, 235);
+            box-shadow: none;
+            box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.5);
         }
 
 /*------------------------------
