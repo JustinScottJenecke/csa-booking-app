@@ -55,6 +55,10 @@
         display: flex;
         flex-direction: column;
 
+        background-image: url("../resource/hero-background.jfif");
+        background-repeat: no-repeat;
+        background-size: auto;
+
         justify-content: space-around;
         min-height: 75vh;
         padding: 1rem;
