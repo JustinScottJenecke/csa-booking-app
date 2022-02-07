@@ -1,0 +1,86 @@
+/*------------------------------
+    CSS Properties
+--------------------------------*/
+
+:root {
+
+    --brown-main: rgb(150, 94, 69);
+    --brown-light: rgb(224, 198, 185);
+}
+
+/*------------------------------
+    Generic Styles
+--------------------------------*/
+
+    *, ::after, ::before {
+
+        font-family: Helvetica, sans-serif;
+        box-sizing: border-box;
+        font-size: 1rem;
+        margin: 0;
+    }
+
+    h1 {font-size: 2.5rem;}
+    h2 {font-size: 2rem;}
+    h3 {font-size: 1.5rem;}
+
+    a {text-decoration: none;}
+
+    ul {list-style: none;}
+
+    button {
+
+        border: none;
+        border-radius: 6px;
+        background-color: rgb(150, 94, 69);
+    }
+
+/*------------------------------
+    Nav Styling
+--------------------------------*/
+
+    .nav {
+        
+        position: sticky;
+        top: 0;
+        background-color: black;
+    }
+
+/*------------------------------
+    Hero Styling
+--------------------------------*/
+
+
+/*------------------------------
+    Main Area / Home
+--------------------------------*/
+
+    .booking-form {
+
+        display: flex;
+        flex-direction: column;
+    }
+
+        .booking-form input {
+            
+            background-color: rgb(236, 236, 236);
+            border: none;
+            border-bottom: solid 1px;
+            font-size: 1.5rem;
+            margin: 1rem 0;
+        }
+
+        #compare-submit {
+            border: none;
+            border-radius: 6px;
+            background-color: rgb(150, 94, 69);
+        }
+
+/*------------------------------
+    Main Area / Bookings
+--------------------------------*/
+
+
+/*------------------------------
+    Footer Styling
+--------------------------------*/
