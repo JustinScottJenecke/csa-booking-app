@@ -29,6 +29,13 @@
     h2 {font-size: 2rem;}
     h3 {font-size: 1.5rem;}
 
+    @media(max-width: 800px) {
+
+        h1 {font-size: 2rem;}
+        h2 {font-size: 1.25rem;}
+        h3 {font-size: 1rem;}
+    }
+
     a {text-decoration: none;}
 
     ul {list-style: none;}
@@ -52,9 +59,24 @@
         top: 0;
 
     }
+    @media(max-width: 800px) {
+        .nav {
+            flex: 9;
+        }
+        .nav a {
+            padding: 0rem;
+        }
+        .nav-container article {
+            flex: 1;
+            padding-top: 0.25rem;
+        }
+        .icon {
+            border-radius: 50%;
+        }
+    }
 
         .nav {
-            flex: 6;
+            flex: 7;
 
             display: flex;
             flex-direction: row;
@@ -83,11 +105,12 @@
             /* -- Nav Icon -- */
             
             .nav-container article {
-                flex: 6;    
+                flex: 5;    
                 padding-left: 2rem;        
             }
 
             .icon {
+                padding-top: 5px;
                 height: 2.5rem;
                 width: 2.5rem;
                 cursor: pointer;
@@ -110,6 +133,13 @@
         min-height: 90vh;
 
         border-radius: 0 0 2.5% 2.5%;
+    }
+    @media(max-width: 800px) {
+
+        .hero {
+            min-height: 60vh;
+            background-size: 100vw 60vh;
+        }
     }
 
         .hero-title {
@@ -163,6 +193,13 @@
             margin: 1rem 0;
             padding: 0.5rem;
         }
+        @media(max-width: 800px) {
+
+            .booking-form input {
+                font-size: 1rem;
+
+            }
+        }
 
         #compare-submit {
             
@@ -176,6 +213,8 @@
             color: rgb(235, 235, 235);
             box-shadow: none;
             box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.5);
+
+            cursor: pointer;
         }
 
 /*------------------------------
