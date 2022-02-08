@@ -17,10 +17,15 @@
         font-family: Helvetica, sans-serif;
         box-sizing: border-box;
         font-size: 1rem;
+        font-weight:lighter;
         margin: 0;
     }
 
-    h1 {font-size: 2.5rem;}
+    body {
+        background-color: var(--brown-light);
+    }
+
+    h1 {font-size: 3rem; margin-bottom: 0.5rem;}
     h2 {font-size: 2rem;}
     h3 {font-size: 1.5rem;}
 
@@ -39,12 +44,54 @@
     Nav Styling
 --------------------------------*/
 
-    .nav {
+    .nav-container {
+        background-color: rgba(255, 255, 255);
+        display: flex;
 
         position: sticky;
         top: 0;
-        background-color: black;
+
     }
+
+        .nav {
+            flex: 6;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+                
+            background-color: rgb(255, 255, 255);
+        }
+
+        /* -- Nav Buttons -- */
+            
+            .nav a {
+                display: block;
+                width: 100%;
+                text-align: center;
+                padding: 1rem;
+                background-color: rgb(255, 255, 255);
+                color: black;
+                border-radius: 0;
+            }
+
+            .nav a:hover {
+                background-color: rgb(44, 44, 44);
+                color: white;
+            }
+
+            /* -- Nav Icon -- */
+            
+            .nav-container article {
+                flex: 6;    
+                padding-left: 2rem;        
+            }
+
+            .icon {
+                height: 2.5rem;
+                width: 2.5rem;
+                cursor: pointer;
+            }
 
 /*------------------------------
     Hero Styling
@@ -55,15 +102,24 @@
         display: flex;
         flex-direction: column;
 
-        background-image: url("../resource/hero-background.jfif");
+        background-image: url("../resource/hero-background-2.png");
         background-repeat: no-repeat;
-        background-size: auto;
+        background-size: 100vw 120vh;
 
         justify-content: space-around;
-        min-height: 75vh;
-        padding: 1rem;
-        padding-left: 5vw;
+        min-height: 90vh;
+
+        border-radius: 0 0 2.5% 2.5%;
     }
+
+        .hero-title {
+            background-color: rgba(150, 94, 69, 0.5);
+            color: white;
+            padding: 1.5rem;
+            padding-left: 4vw;
+            max-width: 45vw;
+            border-radius: 8px;
+        }
 
 /*------------------------------
     Main Area / Home
