@@ -1,0 +1,65 @@
+/*-----------------------------------------
+    Hotel Page styling
+-----------------------------------------*/
+
+    .hotel-main {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+/*-----------------------------------------
+    Header Section styling
+-----------------------------------------*/
+
+    .hotel-intro {
+        display: flex;
+        flex-direction: column;
+
+        text-align: center;
+        padding: 1rem 3rem;
+    }
+
+
+/*-----------------------------------------
+    List of Hotels styling
+-----------------------------------------*/
+
+    .hotel-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+        padding: 2rem;
+    }
+
+    .hotel-card {
+
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+
+        padding: 1rem;
+        margin: 2rem;
+    }
+    @media(max-width: 800px){
+
+        .hotel-list {
+            padding: 1rem;
+        }
+
+        .hotel-card {
+            padding: 0.5rem;
+            margin: 1rem;
+        }
+
+    } 
+
+        /* -- Card Data --*/
+        .hotel-card-data {
+            padding-left: 5px;
+        }
+
+        .hotel-card-data li {
+            font-size: 1rem;
+            padding: 0.5rem;
+        }
