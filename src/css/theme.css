@@ -4,8 +4,12 @@
 
 :root {
 
+    --brown-darker: rgb(158, 75, 36);
     --brown-main: rgb(150, 94, 69);
     --brown-light: rgb(201, 178, 149);
+
+    --shadeGrey: rgb(210, 210, 210);
+    --darkGrey: rgb(40,40,40);
 }
 
 /*------------------------------
@@ -98,8 +102,8 @@
             }
 
             .nav a:hover {
-                background-color: rgb(44, 44, 44);
-                color: white;
+                background-color:var(--shadeGrey);
+                color:var(--brown-darker)
             }
 
             /* -- Nav Icon -- */
