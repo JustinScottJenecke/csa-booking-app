@@ -7,6 +7,7 @@
     --brown-darker: rgb(158, 75, 36);
     --brown-main: rgb(150, 94, 69);
     --brown-light: rgb(201, 178, 149);
+    --brown-exlight: rgb(240, 220, 194);
 
     --shadeGrey: rgb(220, 220, 220);
     --darkGrey: rgb(40,40,40);
@@ -129,7 +130,7 @@
         display: flex;
         flex-direction: column;
 
-        background-image: url("../resource/hero-background-2.png");
+        background-image: url("../resource/landing/hero-background-2.png");
         background-repeat: no-repeat;
         background-size: 100vw 120vh;
 
