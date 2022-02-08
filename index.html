@@ -54,11 +54,14 @@
                 <form id="booking-form" class="booking-form">
             
                     <input type="text" name="firstname"  placeholder="Enter First Name " required>
-                    <input type="text" name="surname" placeholder="Enter Lastname" required>
+                    <input type="text" name="surname" placeholder="Enter Last Name" required>
                     <input type="email" name="email" placeholder="Provide Email Address" required>
-                    <input type="datetime-local" name="checkinDate" placeholder="Select Check-in Date" required>
-                    <input type="datetime-local" name="checkoutDate" placeholder="Select Checkout Date" required>
-    
+                    <input type="text" placeholder="Check-in Date" onfocus="(this.type='date')">   
+                    <input type="text" placeholder="Checkout Date" onfocus="(this.type='date')">
+                    <!-- 
+                    <input type="date" name="checkinDate" placeholder="Select Check-in Date" required>
+                    <input type="date" name="checkoutDate" placeholder="Select Checkout Date" required>
+                    -->
                     <input type="submit" name="compare" id="compare-submit" value="COMPARE">
     
                 </form>
