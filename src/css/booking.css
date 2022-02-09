@@ -24,30 +24,45 @@
     Table Rows and Coloumns
 -----------------------------------*/
 
-.table-content {
 
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-}
+    /*-- Table body and Table Header --*/
 
-.table-content * {
-    padding: 1rem;
-    font-size: 1rem;
-}
+    .table-content {
 
-.table-content button {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }
 
-    color: whitesmoke;
-    border-radius: 0;
-    
-}
+    .table-content * {
+        padding: 1rem;
+        font-size: 1rem;
+    }
 
-.booking-list * {
-    background-color: white;
-    font-size: 1.25rem;
-    padding: 0;
-    margin: 0;
-}
-.booking-list :nth-child(even) {
-    background-color: rgb(235, 235, 235);;
-}
+    .table-content button {
+
+        color: whitesmoke;
+        border-radius: 0;
+        
+    }
+
+    /* -- Booking List -- */
+
+    .booking-list * {
+
+        /* background-color: white; */
+        font-size: 1.25rem;
+        padding: 0.5rem;
+        
+    }
+
+    /* Individual Booking Items */
+    .booking-list-item {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        text-align: center;
+    }
+
+    .booking-list-item:nth-child(even){
+        background-color: rgb(235, 235, 235);
+
+    }
