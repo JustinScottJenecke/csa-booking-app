@@ -1,0 +1,53 @@
+/*----------------------------------
+    Booking Table
+----------------------------------*/
+    .title {
+
+        padding: 1.5rem 1rem;
+        text-align: center;
+    }
+
+    .booking-table {
+
+        display: flex;
+        flex-direction: column;
+        
+        padding: 1rem;
+        margin: 1rem 2.5rem;
+        min-height: 70vh;
+
+        background-color: white;
+        box-shadow: 7px 7px 10px 4px rgba(0, 0, 0, 0.5);
+    }
+
+/*-----------------------------------
+    Table Rows and Coloumns
+-----------------------------------*/
+
+.table-content {
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.table-content * {
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+.table-content button {
+
+    color: whitesmoke;
+    border-radius: 0;
+    
+}
+
+.booking-list * {
+    background-color: white;
+    font-size: 1.25rem;
+    padding: 0;
+    margin: 0;
+}
+.booking-list :nth-child(even) {
+    background-color: rgb(235, 235, 235);;
+}
