@@ -63,7 +63,9 @@
         position: sticky;
         top: 0;
 
+        box-shadow: 7px 7px 10px 1px rgba(0, 0, 0, 0.5);
     }
+    
     @media(max-width: 800px) {
         .nav {
             flex: 9;
