@@ -182,23 +182,23 @@
         padding-right: 12vw;
         border-radius: 4px;
 
-        background-color: white;
-        box-shadow: 7px 7px 10px 1px rgba(0, 0, 0, 0.5);
+        /* background-color: white; */
+        /* box-shadow: 7px 7px 10px 1px rgba(0, 0, 0, 0.5); */
 
     }
 
         .booking-form input {
             
-            background-color: rgb(235, 235, 235);
-            /*box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.5);*/
+            background-color: rgb(255, 255, 255);
+            color: var(--brown-darker);
+            box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.5);
 
-            border-radius: 8px 8px 0 0;
             border: none;
             border-bottom: solid 1px;
 
             font-size: 1.5rem;
             margin: 1rem 0;
-            padding: 0.5rem;
+            padding: 1rem;
         }
         @media(max-width: 800px) {
 
