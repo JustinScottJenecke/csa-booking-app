@@ -121,6 +121,7 @@
                 height: 2.5rem;
                 width: 2.5rem;
                 cursor: pointer;
+                border-radius: 40%;
             }
 
 /*------------------------------
@@ -184,7 +185,6 @@
 
         /* background-color: white; */
         /* box-shadow: 7px 7px 10px 1px rgba(0, 0, 0, 0.5); */
-
     }
 
         .booking-form input {
