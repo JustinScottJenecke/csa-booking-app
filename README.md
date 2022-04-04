@@ -10,6 +10,6 @@ Mock site for Booking application. No functionality and still a static website
 - Was built for CodeSpace as sample project, but campaign was scrapped in favor of alternative campaign
 - Provide frontend for PHP booking app
 
-## Future Plnas:
+## Future Plans:
 - Can be improved to be JavaScript application with json file as persistent date store
 - Can create PHP backend and use this site to serve as frontend interface for application
